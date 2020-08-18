@@ -1,0 +1,24 @@
+{
+  "name": "midiconverter-4-arduinomusicbox",
+  "version": "1.0.0",
+  "description": "A Midi converter that generates a printable paper musicroll, that could be played by an Arduino music box reading the gray values with an IR sensor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cinezaster/MidiConverter-4-ArduinoMusicBox.git"
+  },
+  "author": "Toon Nelissen <toon.nelissen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cinezaster/MidiConverter-4-ArduinoMusicBox/issues"
+  },
+  "homepage": "https://github.com/Cinezaster/MidiConverter-4-ArduinoMusicBox#readme",
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "midi-converter": "^0.1.5"
+  }
+}
